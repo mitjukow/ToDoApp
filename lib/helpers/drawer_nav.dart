@@ -30,7 +30,7 @@ class _DrawerNavState extends State<DrawerNav> {
             title: Text("Home"),
             leading: Icon(Icons.home),
             onTap: (){
-              Navigator.of(context).push(new MaterialPageRoute(builder: (context) => new HomeScreen());
+              Navigator.of(context).push(new MaterialPageRoute(builder: (context) => new HomeScreen()));
             },
           ),
 
@@ -38,7 +38,7 @@ class _DrawerNavState extends State<DrawerNav> {
               title: Text("Categories"),
               leading: Icon(Icons.view_list),
               onTap: (){
-                Navigator.of(context).push(new MaterialPageRoute(builder: (context) => new CategoriesScreen());
+                Navigator.of(context).push(new MaterialPageRoute(builder: (context) => new CategoriesScreen()));
                 },
             ),
           ],
